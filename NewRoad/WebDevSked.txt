@@ -1,0 +1,8 @@
+Javascript 
+2)functions/api, classes, oops
+3)callbacks-promises(onThen)-async/await 
+4)DOM-(events, document, local storage)
+Reactjs
+Express
+Middleware-zod
+Mongodb-postgres-jwt-auth

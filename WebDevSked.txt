@@ -1,0 +1,21 @@
+HTML tags
+CSS 
+Javascript 
+1)const, let, var, [], objects
+2)functions/api, classes, oops
+3)callbacks-promises(onThen)-async/await 
+Ecmascript-Browser-Runtime(Nodejs)
+Reactjs
+Express
+1)Middleware-zod
+2)jwt-auth
+3)Mongoose/MongoDB
+Recoil
+tailwind
+Typescript
+Postgres
+Prisma
+Deployment
+Hono
+Nextjs
+Shadcn

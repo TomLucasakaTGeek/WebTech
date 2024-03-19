@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    background: yellow;
+    /* grid-row-gap: 9px;
+    grid-column-gap: 9px; */
+    grid-gap: 2px 9px;
+    grid-template-columns: 34px 334px;
+}
+.item{
+background: aquamarine;
+border: 2px solid red;
+}

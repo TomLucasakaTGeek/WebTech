@@ -1,0 +1,19 @@
+*{
+  background-color: black;
+}
+h1{
+  color: white;
+}
+#btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.click{
+  background-color: forestgreen;
+  color: black;
+  border: 5px solid white;
+  width: 20vw;
+  height: 10vh;
+}

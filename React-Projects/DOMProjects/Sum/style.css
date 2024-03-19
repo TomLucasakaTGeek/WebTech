@@ -1,0 +1,16 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    margin: 3px;
+    height: 20px;
+    width: 150px;
+    background-color: chartreuse;
+}
+#content{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 15%;
+}
