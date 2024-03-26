@@ -1,5 +1,3 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 const id={
@@ -7,12 +5,6 @@ const id={
   But: "I am a Button!!",
   img: "https://www.olivseo.com/wp-content/uploads/2016/10/photodune-8285481-the-copyright-xs-300x206.jpg"
 }
-
-const products = [
-  {title: 'Cabbage', id: 1},
-  {title: 'Garlic', id: 2},
-  {title: 'Apple', id: 3}
-]
 
 function MyHello() {
   return(
@@ -42,8 +34,7 @@ let x=1
 //   content=<MyHello/>
 // else
 //   content=<MyButton/>
-
-function App() {
+function FirstPage() {
   return (
     <> 
     { x==1 ?
@@ -52,6 +43,14 @@ function App() {
     }
       <img src={id.img} alt="Image" />
       <MyClick />
+    </>
+  )
+}
+
+function App() {
+  return (
+    <> 
+      <FirstPage/>
     </>
   )
 }
