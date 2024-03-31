@@ -9,7 +9,7 @@ export function Login() {
             <input type="text" placeholder=' Username' className='box'/>
             <input type="text" placeholder=' Password' className='box'/>
             <button className='btn'>LOGIN</button>
-            <p id='desc'>Not Registered? <b><NavLink className ='linkclr'to='/Signup'>Create an Account</NavLink></b></p>
+            <p id='desc'>Not Registered? <b><NavLink className ='linkclr'to='/signup'>Create an Account</NavLink></b></p>
           </div>
         </body>
     )
