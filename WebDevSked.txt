@@ -1,17 +1,21 @@
-HTML tags
-CSS 
+HTML tags ✔️
+CSS properties ✔️
+Advanced CSS (grid, transform and animations) 
 Javascript 
-1)const, let, var, [], objects
-2)functions/api, classes, oops
-3)callbacks-promises(onThen)-async/await 
-Ecmascript-Browser-Runtime(Nodejs)
-Reactjs
+1) const, let, var, [], objects ✔️
+2) functions/api, callbacks-async/await ✔️
+3) classes, oops, promises(onThen)
+Ecmascript-Browser-Runtime(Nodejs) ✔️
+Reactjs - Component Architecture ✔️ 
+Advanced React
 Express
-1)Middleware-zod
-2)jwt-auth
-3)Mongoose/MongoDB
+1)Route Handling ✔️
+2)Middleware-zod
+3)jwt-auth
+4)Mongoose/MongoDB ✔️
 Recoil
 tailwind
+WebRTC
 Typescript
 Postgres
 Prisma
