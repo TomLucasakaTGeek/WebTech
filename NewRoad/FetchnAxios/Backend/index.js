@@ -1,17 +1,15 @@
 const express = require('express')
+const axios = require('axios').default
 const cors = require('cors')
 const app = express()
 app.use(cors())
 
 app.get('/', async ()=>{
-    const myheaders = new Headers()
-    myheaders.append("Content-Type", "application/json")
-
-    const response = await fetch("http://127.0.0.1:3000/Frontend", {
-        method: "POST",
-        body: JSON.stringify({username: "example"}),
-        headers: myheaders
-    })
+    axios
+    .post('http://127.0.0.1:3000/Frontend/index.html', 
+        {username: Tanmay})
+    .then(res => console.log(res))
+    .catch(e => console.log("Error"))
 })
 
 app.listen(8003, ()=> console.log("App is running on port: 8003"))
